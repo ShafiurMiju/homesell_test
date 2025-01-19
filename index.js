@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use(
   cors({
-    origin: "https://clientsellhometest.vercel.app", // Replace with your frontend URL
+    origin: "*", // Replace with your frontend URL
     credentials: true, // Allow cookies if needed
   })
 );
